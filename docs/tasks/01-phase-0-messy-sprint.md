@@ -46,6 +46,8 @@
 
 不要爬社群、查地圖、補真實地址或從外部網站補資料。
 
+`sourceType` 只代表資料從哪裡來，不代表已被查核；即使來源看起來像官方公告，也要看 `verificationStatus` 與原文是否說明清楚。
+
 ## 成果放哪裡
 
 - 畫面：`src/app/App.tsx`、`src/components/`，或 `src/features/phase-0/`
@@ -77,6 +79,8 @@
 - [ ] `docs/phase0-observations.md` 寫下至少 3 個資料品質問題
 - [ ] `docs/ai-log.md` 記錄 agent 做了什麼、哪裡不能直接相信
 - [ ] demo 能從首頁看到
+
+「6 筆可編輯草稿」可以是課堂中在 UI 建立的草稿，或由保守安全預設初始化的空白草稿；不代表要把 6 筆 M-ID 的分類答案寫死在程式裡。「候選結果」也可以是在 UI 或 observation 中留下的人類修正結果，不需要 seed 成 fixture。
 
 ## 停止條件
 
