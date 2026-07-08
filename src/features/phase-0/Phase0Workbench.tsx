@@ -56,7 +56,7 @@ export function Phase0Workbench({
           <h3>第一階段完成檢查</h3>
           <ul>
             <li>Starter 已載入 {records.length} 筆原始資訊</li>
-            <li>用 Prompt 2 讓 agent 加上建立、編輯、刪除或重設整理草稿</li>
+            <li>請 agent 加上建立、編輯、刪除或重設整理草稿</li>
             <li>至少讓 6 筆原始資訊被嘗試整理成可編輯草稿</li>
             <li>至少挑 2 個候選判斷由人類質疑或修正</li>
             <li>
